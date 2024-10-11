@@ -23,7 +23,7 @@ class _RegisterPageState extends State<RegisterPage> {
   final passwordController = TextEditingController();
   final confirmPasswordController = TextEditingController();
 
-  // Sign up user
+  // Sign up user 
   void signUp()async{
     if(passwordController.text != confirmPasswordController.text){
       ScaffoldMessenger.of(context).showSnackBar(
